@@ -1,9 +1,5 @@
 # Starter pipeline
-- task: FlexNet Code Insight Scan@1
-  inputs:
-    URL: 'http://3.94.87.13:8888'
-    Token: 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTcxNDA1NDQ5fQ.usr-9pQU-XOVM3GK0xY_5G21u4ghCQWQg_sfW0e4Ujzmiaajkk3vVXGgUCT-avJJpSWDPAxACort8xfmFyRpLg'
-    ProjectName: 'eportal-azure'
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -22,3 +18,8 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: FlexNet Code Insight Scan@1
+  inputs:
+    URL: 'http://3.94.87.13:8888'
+    Token: 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTcxNDA1NDQ5fQ.usr-9pQU-XOVM3GK0xY_5G21u4ghCQWQg_sfW0e4Ujzmiaajkk3vVXGgUCT-avJJpSWDPAxACort8xfmFyRpLg'
+    ProjectName: 'eportal-azure'
