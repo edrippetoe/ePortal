@@ -14,6 +14,6 @@ steps:
 - task: FlexNet Code Insight Scan@1
   inputs:
     URL: 'http://3.94.87.13:8888'
-    Token: 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTcxNDA1NDQ5fQ.usr-9pQU-XOVM3GK0xY_5G21u4ghCQWQg_sfW0e4Ujzmiaajkk3vVXGgUCT-avJJpSWDPAxACort8xfmFyRpLg'
+    Token: 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTczMTM4ODk0fQ.GtS4IeH40Noa1G5Z8m8p3mzubTSru2cr00RuPueuCPGhE3S_pNAf73VDrlyv4yyNJXgHFa-RA1G4j15oU73sZQ'
     ProjectName: 'eportal-azure'
     ScanFolders: '$(build.sourcesdirectory)'
