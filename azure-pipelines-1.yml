@@ -13,7 +13,7 @@ steps:
 
 - task: FlexNet Code Insight Scan@1
   inputs:
-    URL: 'http://3.94.87.13:8888'
+    URL: 'http://3.92.72.169:8888'
     Token: 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTczMTQwODg5fQ.29EZ1arOFmWForgDiVrqbAGlnTjmpVUl2GQgC9atFoY5S6jPIsiRGNaWQa6b6Jpcc_8kbmjKkEKf1eUV2804yQ'
     ProjectName: 'eportal-from-azure'
     ScanFolders: '$(build.sourcesdirectory)'
