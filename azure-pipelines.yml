@@ -16,4 +16,10 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+- task: FlexNet Code Insight Scan@1
+  inputs:
+    URL: 'http://services.flexnetcodeinsight.com:8888'
+    Token: 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsInVzZXJJZCI6MSwiaWF0IjoxNTc2MjY3MDgxfQ.TFeL1tCQ29p0CLcgeXvT4G0WmikubOnkKbTbjmE0-UOafBqcmiPl1NNvfe94Kabe_ynXrzhDz3_W5BMi9FAjfw'
+    ProjectName: 'eportal-azure'
+    ScanFolders: '$(build.sourcesdirectory)'
+
